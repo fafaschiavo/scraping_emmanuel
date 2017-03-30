@@ -35,8 +35,8 @@ def login_facebook():
 	br.select_form(nr=0)
 	# these two come from the code you posted
 	# where you would normally put in your username and password
-	br[ "email" ] = 'fafaschiavo'
-	br[ "pass" ] = '310308Fah!'
+	br[ "email" ] = 'USER HERE'
+	br[ "pass" ] = 'PASSWORD'
 	res = br.submit() 
 
 	print "Success!\n"
